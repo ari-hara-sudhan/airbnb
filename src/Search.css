@@ -22,8 +22,9 @@
     padding:20px;
     position:absolute;
     left:0;
-    top:418px;
+    top:380px;
     border-radius:30px;
+    border:none;
     outline:none;
    
 
@@ -31,13 +32,14 @@
 .search>button{
     position:absolute;
     left:0;
-    top:490px;
+    top:430px;
     text-transform: inherit !important;
     background-color: #ff7779;
     color:white;
     width:570px;
     border-radius:20px;
     padding:10px;
+    z-index:100;
 }
 .search>button:hover{
     color:white;
